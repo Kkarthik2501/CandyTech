@@ -1,0 +1,85 @@
+/* App */
+.container {
+  margin-left: 25%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.header-title {
+  color: #000;
+  margin: 0;
+}
+.main-container{
+  width: 80% !important;
+  margin-top:11px;
+  flex-direction: column;
+  align-content: center; 
+}
+
+/* Sidebar */
+.sidebar {
+  width: 10%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  height: 200vh;
+  display: inline-block;
+  float: left;
+  font-size: x-large;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar li {
+  text-decoration: none;
+  color: rgb(19, 15, 15);
+}
+
+.sidebar li:hover {
+  color: #861b1b;
+}
+
+
+/* Content */
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f1f1f1;
+}
+
+/* Toggle Switch */
+.form-check-label {
+  margin-left: 10px;
+}
+
